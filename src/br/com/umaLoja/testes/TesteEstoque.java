@@ -30,6 +30,7 @@ public class TesteEstoque {
         estoque.getProdutos().forEach( produto -> System.out.println(produto) );
 
         System.out.println();
+	System.out.println();
 
         estoque.gerarRelatorio();
 
